@@ -82,6 +82,18 @@
     <Compile Include="level2.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="level3.Designer.vb">
+      <DependentUpon>level3.vb</DependentUpon>
+    </Compile>
+    <Compile Include="level3.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="level4.Designer.vb">
+      <DependentUpon>level4.vb</DependentUpon>
+    </Compile>
+    <Compile Include="level4.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="MainMenu.vb">
       <SubType>Form</SubType>
     </Compile>
@@ -99,11 +111,6 @@
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
       <DependentUpon>Application.myapp</DependentUpon>
-    </Compile>
-    <Compile Include="My Project\Resources.Designer.vb">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
     <Compile Include="My Project\Settings.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -124,6 +131,12 @@
     <EmbeddedResource Include="level2.resx">
       <DependentUpon>level2.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="level3.resx">
+      <DependentUpon>level3.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="level4.resx">
+      <DependentUpon>level4.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="LevelSelect.resx">
       <DependentUpon>LevelSelect.vb</DependentUpon>
     </EmbeddedResource>
@@ -132,7 +145,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
     </EmbeddedResource>
@@ -208,6 +220,21 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\spike.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\forest level.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mountain level.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mountain key.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\key for lava.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mountain door.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

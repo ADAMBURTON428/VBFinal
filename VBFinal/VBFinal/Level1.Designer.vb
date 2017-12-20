@@ -184,10 +184,10 @@ Partial Class Level1
         '
         'PictureBox1
         '
-        Me.PictureBox1.Image = Global.VBFinal.My.Resources.Resources.plains_level
+        Me.PictureBox1.Image = Global.VBFinal.My.Resources.Resources.forest_level
         Me.PictureBox1.Location = New System.Drawing.Point(-5, 0)
         Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(909, 470)
+        Me.PictureBox1.Size = New System.Drawing.Size(909, 428)
         Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox1.TabIndex = 14
         Me.PictureBox1.TabStop = False
@@ -196,7 +196,7 @@ Partial Class Level1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(900, 463)
+        Me.ClientSize = New System.Drawing.Size(900, 423)
         Me.Controls.Add(Me.PictureBox14)
         Me.Controls.Add(Me.PictureBox11)
         Me.Controls.Add(Me.PictureBox13)
